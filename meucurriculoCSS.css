@@ -19,6 +19,7 @@ p1 {
 p{
 font-family: Arial, Helvetica, sans-serif;
 font-size: 16px;
+text-align: justify;
 }
 
 h2{
@@ -28,6 +29,7 @@ h2{
     padding: 3px;
     margin-top: 20px;
     margin-bottom: 12;
+    text-align: justify;
 }
 
 ul{
@@ -69,3 +71,18 @@ a:link, a:visited {
     display: inline-block;
     border-bottom: 2px solid #e29f7fde;
   }
+
+  /* Estilos para dispositivos com tela pequena, como smartphones */
+@media (max-width: 768px) {
+    /* Suas regras de estilo para telas pequenas aqui */
+}
+
+/* Estilos para dispositivos com tela média, como tablets */
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* Suas regras de estilo para telas médias aqui */
+}
+
+/* Estilos para dispositivos com tela grande, como desktops */
+@media (min-width: 1025px) {
+    /* Suas regras de estilo para telas grandes aqui */
+}
